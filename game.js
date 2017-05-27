@@ -110,6 +110,6 @@ function main() {
   afficherPieces();
 
   var index = 0;
-  setInterval(function(){ move(answer, index++) }, 50);
+  setInterval(function(){ move(answer, index++) }, 100);
 }
 main();
